@@ -7,7 +7,7 @@ const CustomBackground = ({ children, direction, colorOne, colorTwo, colorThree 
     <Flex
       bgGradient={`linear(${direction}, ${colorOne}, ${colorTwo}, ${colorThree})`}
       w="100%"
-      h="100vh"
+      minH="100vh"
       direction="column"
       align="center" 
       justify="center" 

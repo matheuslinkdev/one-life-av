@@ -12,14 +12,14 @@ export const theme = extendTheme({
   styles: {
     global: {
       "html, body": {
-        margin: 0, // Remove margens
-        padding: 0, // Remove preenchimentos
-        height: "100%", // Altura mínima de 100% da viewport
-        width: "100%", // Largura mínima de 100% da viewport
+        margin: 0,
+        padding: 0,
+        height: "100%",
+        width: "100%",
       },
       article: {
-        margin: 0, // Remove margens
-        padding: 0, // Remove preenchimentos
+        margin: 0,
+        padding: 0,
       },
       a: {
         fontFamily: `"Montserrat", sans-serif`,
@@ -29,6 +29,9 @@ export const theme = extendTheme({
   fonts: {
     heading: `"Cormorant Garamond", serif`,
     text: `"Montserrat", sans-serif`,
+  },
+  animations: {
+    defaultSmooth: ".3s linear",
   },
   colors: {
     common: {
@@ -44,7 +47,17 @@ export const theme = extendTheme({
       "900": "#121212",
       "950": "#050505",
       transparent: {
-        "950": "#050505cc",
+        "50": "#f6f6f655",
+        "100": "#e7e7e755",
+        "200": "#d1d1d155",
+        "300": "#b0b0b055",
+        "400": "#88888855",
+        "500": "#6d6d6d55",
+        "600": "#46464655",
+        "700": "#35353555",
+        "800": "#25252555",
+        "900": "#12121255",
+        "950": "#05050555",
       },
     },
     marine: {
@@ -59,6 +72,19 @@ export const theme = extendTheme({
       "800": "#205c6a",
       "900": "#1f4d5a",
       "950": "#0f323d",
+      transparent: {
+        "50": "#eefdfd55",
+        "100": "#d4f8f955",
+        "200": "#afeef255",
+        "300": "#78e1e855",
+        "400": "#39cad755",
+        "500": "#1daab955",
+        "600": "#1b8c9f55",
+        "700": "#1d718155",
+        "800": "#205c6a55",
+        "900": "#1f4d5a55",
+        "950": "#0f323d55",
+      },
     },
     violet: {
       "50": "#fbf6fe",
@@ -72,6 +98,19 @@ export const theme = extendTheme({
       "800": "#7929a0",
       "900": "#632281",
       "950": "#440d5e",
+      transparent: {
+        "50": "#fbf6fe55",
+        "100": "#f6e9fe55",
+        "200": "#eed7fd55",
+        "300": "#e0b8fa55",
+        "400": "#cd8bf555",
+        "500": "#ba5fed55",
+        "600": "#a131dd55",
+        "700": "#902cc455",
+        "800": "#7929a055",
+        "900": "#63228155",
+        "950": "#440d5e55",
+      },
     },
     ocre: {
       "50": "#fef8ee",
@@ -85,6 +124,19 @@ export const theme = extendTheme({
       "800": "#913f1b",
       "900": "#753519",
       "950": "#3f190b",
+      transparent: {
+        "50": "#fef8ee55",
+        "100": "#fcefd855",
+        "200": "#f8dbb055",
+        "300": "#f4c17d55",
+        "400": "#ee9d4955",
+        "500": "#ea812555",
+        "600": "#de691b55",
+        "700": "#b64f1855",
+        "800": "#913f1b55",
+        "900": "#75351955",
+        "950": "#3f190b55",
+      },
     },
   },
 });

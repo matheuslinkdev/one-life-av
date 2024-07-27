@@ -1,14 +1,15 @@
-{
-  "technologyForHealing": {
+[
+  {
     "title": "Harnessing the Power of Technology for Healing",
     "description": "We harness the power of technology not just to connect, but to heal—to ensure that every interaction nurtures both mind and soul. We believe in the transformative magic of sharing, knowing that in each narrative lies the potential for healing and growth."
   },
-  "beaconOfHope": {
+
+  {
     "title": "A Beacon of Hope",
     "description": "We're more than just a platform; we're a beacon of hope in the digital realm, providing solace to those navigating life's storms. Our mission is simple yet profound: to create a nurturing environment where individuals can share their struggles openly while receiving invaluable insights and support from a caring community."
   },
-  "commitmentToPositiveChange": {
+  {
     "title": "Commitment to Positive Change",
     "description": "In a world where mental well-being is often overlooked, especially in India where millions grapple with silent battles, we stand firm in our commitment to fostering positive change. Through our app and website, we've cultivated a diverse tapestry of voices, including survivors, therapists, psychologists, and everyday heroes. Here, conversations span a myriad of topics—from financial woes to familial dynamics—bolstered by the unifying thread of empathy and support."
   }
-}
+]
