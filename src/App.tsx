@@ -5,6 +5,7 @@ import Missions from "./components/screens/Missions";
 import Benefits from "./components/screens/Benefits";
 import JoinUs from "./components/screens/JoinUs";
 import CustomBackground from "./components/custom/CustomBackground";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       >
         <JoinUs />
       </CustomBackground>
+      <Footer/>
     </>
   );
 }

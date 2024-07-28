@@ -1,4 +1,3 @@
-import React from "react";
 import CustomBackground from "../components/custom/CustomBackground";
 
 const CommunityPage = () => {

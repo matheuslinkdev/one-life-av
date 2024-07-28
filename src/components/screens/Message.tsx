@@ -2,8 +2,12 @@ import { Box, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
 
 const Message = () => {
   return (
-    <Flex alignItems="center" p={12} w="100%">
-      <Box flex={1} display="flex" justifyContent="start">
+    <Flex alignItems="center" p={8} w="100%">
+      <Box
+        flex={1}
+        justifyContent="start"
+        display={{ base: "none", md: "block" }}
+      >
         <Image
           src="/happypeople.webp"
           maxW="60%"
@@ -16,7 +20,7 @@ const Message = () => {
         />
       </Box>
       <Grid flex={1} w="100%" textAlign="center">
-        <Heading fontSize={{ base: 32, md: 50 }} fontWeight={400}>
+        <Heading fontSize={{ base: 34., md: 50 }} fontWeight={400} mb={4}>
           IT’S OK TO NOT BE OK YOU ARE A HUMAN
         </Heading>
         <Text fontSize={22} fontWeight={400} mt={2}>

@@ -2,7 +2,6 @@ import {
   Box,
   Button,
   Flex,
-  Grid,
   Heading,
   Icon,
   Image,
@@ -12,9 +11,21 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 
 const Home = () => {
   return (
-    <Flex alignItems="center" p={12} w="100%">
-      <Grid flex={1} w="100%" >
-        <Heading fontSize={{ base: 32, md: 56 }} fontWeight={400}>
+    <Flex alignItems="center" p={8} w="100%">
+      <Flex
+        flexDir="column"
+        flex={1}
+        w="100%"
+        zIndex={999}
+        bgGradient={{
+          base: "linear(80deg, marine.transparent.300, ocre.transparent.200)",
+          md: "none",
+        }}
+        backdropFilter="blur(3px)"
+        borderRadius={18}
+        p={1}
+      >
+        <Heading fontSize={{ base: 34, md: 56 }} fontWeight={400}>
           Your Mental Health Matters
         </Heading>
         <Text fontSize={22} fontWeight={400} maxW={500} mt={2}>
@@ -33,12 +44,19 @@ const Home = () => {
           SPEAK IT OUT !
           <Icon as={IoArrowForwardOutline} ml={1} />
         </Button>
-      </Grid>
+      </Flex>
 
-      <Box flex={1} display="flex" justifyContent="end">
+      <Box
+        flex={1}
+        display="flex"
+        justifyContent="end"
+        position={{ base: "absolute", md: "relative" }}
+        right={{ base: 2, md: "auto" }}
+        zIndex={1}
+      >
         <Image
           src="/flowes.webp"
-          maxW="60%"
+          w={350}
           filter="drop-shadow(10px 5px 15px var(--chakra-colors-violet-500))"
           className="default-transition"
           _hover={{

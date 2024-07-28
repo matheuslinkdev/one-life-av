@@ -32,7 +32,7 @@ const Missions = () => {
             borderRadius="md"
             boxShadow="md"
             w={800}
-            alignSelf={index % 2 === 0 ? "start" : "end"}
+            maxW="95dvw"
             className="default-transition"
             border="2px solid var(--chakra-colors-violet-300)"
             _hover={{
