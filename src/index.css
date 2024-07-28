@@ -9,3 +9,8 @@
 h1, h2, h3, h4, h5, p{
   cursor: default;
 }
+
+.card-button{
+  background-color: var(--chakra-colors-violet-400);
+  border-radius: 45px;
+}

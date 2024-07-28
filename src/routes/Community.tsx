@@ -1,4 +1,5 @@
 import CustomBackground from "../components/custom/CustomBackground";
+import Community from "../components/screens/Community";
 
 const CommunityPage = () => {
   return (
@@ -9,7 +10,7 @@ const CommunityPage = () => {
         colorTwo="violet.200"
         colorThree="marine.100"
       >
-        CommunityPage
+        <Community/>
       </CustomBackground>
     </>
   );

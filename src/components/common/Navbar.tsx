@@ -16,7 +16,18 @@ import {
 import { PiUserCirclePlusFill } from "react-icons/pi";
 import { IoClose, IoMenu } from "react-icons/io5";
 
-const navLinks = ["Home", "About Us", "Space", "Sos", "Contact Us"];
+interface Props {
+  label: string;
+  href: string;
+}
+
+const navLinks: Props[] = [
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/" },
+  { label: "Community", href: "/community" },
+  { label: "Sos", href: "/" },
+  { label: "Contact Us", href: "/" },
+];
 
 const Navbar = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
@@ -43,8 +54,8 @@ const Navbar = () => {
       <Box display={{ base: "none", md: "flex" }}>
         {navLinks.map((link) => (
           <Link
-            href="/"
-            key={link}
+            href={link.href}
+            key={link.label}
             margin="0 10px"
             color="white"
             fontSize={20}
@@ -58,7 +69,7 @@ const Navbar = () => {
             transition=".5s ease"
             _hover={{ textDecoration: "none", bg: "violet.500" }}
           >
-            {link}
+            {link.label}
           </Link>
         ))}
       </Box>
@@ -77,7 +88,6 @@ const Navbar = () => {
         isOpen={isDrawerOpen}
         placement="top"
         onClose={handleDrawerToggle}
-        
       >
         <DrawerOverlay />
         <DrawerContent>
@@ -103,8 +113,8 @@ const Navbar = () => {
           >
             {navLinks.map((link) => (
               <Link
-                href="/"
-                key={link}
+                href={link.href}
+                key={link.label}
                 display="block"
                 margin="10px 0"
                 fontWeight={500}
@@ -115,10 +125,9 @@ const Navbar = () => {
                 borderRadius={4}
                 minW="80px"
                 textAlign="center"
-
                 onClick={handleDrawerToggle}
               >
-                {link}
+                {link.label}
               </Link>
             ))}
           </DrawerBody>

@@ -1,16 +1,13 @@
-import Navbar from "./components/common/Navbar";
 import Home from "./components/screens/Home";
 import Message from "./components/screens/Message";
 import Missions from "./components/screens/Missions";
 import Benefits from "./components/screens/Benefits";
 import JoinUs from "./components/screens/JoinUs";
 import CustomBackground from "./components/custom/CustomBackground";
-import Footer from "./components/common/Footer";
 
 function App() {
   return (
     <>
-      <Navbar />
       <CustomBackground
         direction="120deg"
         colorOne="violet.300"
@@ -55,7 +52,6 @@ function App() {
       >
         <JoinUs />
       </CustomBackground>
-      <Footer/>
     </>
   );
 }

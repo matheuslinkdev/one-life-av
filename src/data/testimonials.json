@@ -6,7 +6,8 @@
     "gender": "woman",
     "story": "I'm a 26-year-old woman who's hiding a dark secret. When I was in college, I was involved in a hit-and-run accident that left someone seriously injured. I've never told anyone about what happened, and the guilt eats away at me every day. I'm terrified of the consequences if the truth were to come out.",
     "likes": 12,
-    "views": 245
+    "views": 245,
+    "days_ago": 150
   },
   {
     "title": "Haunted by a Past Mistake",
@@ -15,7 +16,8 @@
     "gender": "man",
     "story": "I'm a 30-year-old man grappling with the guilt of a past mistake that's come back to haunt me. Ten years ago, I got into a drunken fight with a stranger at a bar, and it ended with him getting seriously injured. I was arrested and charged with assault, but I managed to avoid jail time with a plea deal. I thought I had moved on from that dark chapter of my life, but recently, the victim's family reached out to me, demanding compensation for his medical bills and lost wages. I'm terrified of the legal and financial repercussions, and I don't know how to make amends for my actions.",
     "likes": 8,
-    "views": 322
+    "views": 322,
+    "days_ago": 250
   },
   {
     "title": "Burdened by Betrayal",
@@ -24,7 +26,8 @@
     "gender": "woman",
     "story": "I'm a 35-year-old woman who betrayed a close friend by sharing her deepest secret with others. It was a moment of weakness, and I've regretted it ever since. My friend has never found out, but the guilt I feel is overwhelming. I worry every day that she will discover what I did and our friendship will be ruined forever.",
     "likes": 19,
-    "views": 198
+    "views": 198,
+    "days_ago": 80
   },
   {
     "title": "A Life-Changing Lie",
@@ -33,7 +36,8 @@
     "gender": "man",
     "story": "I'm a 28-year-old man living with the consequences of a lie I told. I falsely accused a colleague of stealing from our workplace to get ahead in my career. The accusation led to his dismissal and a tarnished reputation. I received a promotion, but the guilt of my lie is a constant reminder of my wrongdoing.",
     "likes": 15,
-    "views": 274
+    "views": 274,
+    "days_ago": 180
   },
   {
     "title": "Secrets of Infidelity",
@@ -42,7 +46,8 @@
     "gender": "woman",
     "story": "I'm a 40-year-old woman who had an affair five years ago. My husband has no idea, and our marriage has been on the rocks ever since. The guilt of my infidelity is tearing me apart, and I feel trapped in my own web of lies. I don't know how to confess without destroying my family.",
     "likes": 5,
-    "views": 330
+    "views": 330,
+    "days_ago": 170
   },
   {
     "title": "Regret of a Reckless Youth",
@@ -51,7 +56,8 @@
     "gender": "man",
     "story": "I'm a 45-year-old man who regrets the reckless decisions of my youth. I was part of a gang and participated in various criminal activities, including vandalism and theft. I've since turned my life around, but the memories of those days haunt me, and I'm constantly afraid my past will catch up with me.",
     "likes": 22,
-    "views": 266
+    "views": 266,
+    "days_ago": 350
   },
   {
     "title": "A Mother's Silent Sorrow",
@@ -60,33 +66,7 @@
     "gender": "woman",
     "story": "I'm a 50-year-old mother who feels immense guilt over a decision I made regarding my son's education. I forced him into a career path he hated, and it led to a strained relationship. He eventually dropped out of college and cut ties with me. I regret not supporting his dreams and fear I'll never mend our bond.",
     "likes": 11,
-    "views": 284
-  },
-  {
-    "title": "The Weight of Neglect",
-    "username": "robert_38",
-    "age": 38,
-    "gender": "man",
-    "story": "I'm a 38-year-old man struggling with the guilt of neglecting my aging parents. I've been so focused on my career that I've barely spent time with them. Now, they're both in poor health, and I feel an overwhelming sense of guilt for not being there for them. I'm afraid it's too late to make things right.",
-    "likes": 13,
-    "views": 210
-  },
-  {
-    "title": "A Friendship Lost",
-    "username": "jessica_29",
-    "age": 29,
-    "gender": "woman",
-    "story": "I'm a 29-year-old woman who ended a friendship over a misunderstanding. I wrongly accused my best friend of spreading rumors about me, and in a fit of anger, I cut her out of my life. Later, I found out it wasn't her, but the damage was already done. The guilt of losing such a valuable friendship haunts me.",
-    "likes": 18,
-    "views": 295
-  },
-  {
-    "title": "Sibling Rivalry Regrets",
-    "username": "mark_33",
-    "age": 33,
-    "gender": "man",
-    "story": "I'm a 33-year-old man who feels guilty about the way I treated my younger brother growing up. I was always competitive and often put him down to make myself feel better. Now that we're adults, our relationship is strained, and I regret not being a better brother. The guilt of my actions is something I carry every day.",
-    "likes": 14,
-    "views": 250
+    "views": 284,
+    "days_ago": 210
   }
 ]
