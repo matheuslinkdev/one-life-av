@@ -67,7 +67,6 @@ const TestimonialList = () => {
 
             <CardFooter
               justify="space-between"
-              flexWrap="wrap"
               sx={{
                 "& > button": {
                   minW: "136px",
@@ -102,6 +101,7 @@ const TestimonialList = () => {
                   className="card-button"
                   variant="ghost"
                   leftIcon={<IoEyeOutline />}
+                  display={{ base: "none", md: "flex" }}
                 >
                   {testimonial.views}
                 </Button>

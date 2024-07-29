@@ -12,8 +12,8 @@ import Footer from "./components/common/Footer.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <Navbar/>
       <Router>
+      <Navbar/>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/community" element={<CommunityPage />} />

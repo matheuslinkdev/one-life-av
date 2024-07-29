@@ -3,7 +3,6 @@ import {
   Center,
   Flex,
   Image,
-  Link,
   IconButton,
   Box,
   Drawer,
@@ -15,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { PiUserCirclePlusFill } from "react-icons/pi";
 import { IoClose, IoMenu } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 interface Props {
   label: string;
@@ -47,28 +47,13 @@ const Navbar = () => {
       top="0"
       left="0"
       padding="0 20px"
-      zIndex="10"
+      zIndex={999}
     >
       <Image src="/one-life-logo-white.png" height="60px" w="auto" />
 
       <Box display={{ base: "none", md: "flex" }}>
         {navLinks.map((link) => (
-          <Link
-            href={link.href}
-            key={link.label}
-            margin="0 10px"
-            color="white"
-            fontSize={20}
-            fontWeight={300}
-            bg="violet.transparent.600"
-            px={2}
-            py={1}
-            borderRadius={4}
-            minW="80px"
-            textAlign="center"
-            transition=".5s ease"
-            _hover={{ textDecoration: "none", bg: "violet.500" }}
-          >
+          <Link to={link.href} key={link.label} className="nav-link">
             {link.label}
           </Link>
         ))}
@@ -113,18 +98,9 @@ const Navbar = () => {
           >
             {navLinks.map((link) => (
               <Link
-                href={link.href}
+                to={link.href}
                 key={link.label}
-                display="block"
-                margin="10px 0"
-                fontWeight={500}
-                fontSize={22}
-                bgGradient="linear(to-r, violet.400, marine.200)"
-                px={2}
-                py={2}
-                borderRadius={4}
-                minW="80px"
-                textAlign="center"
+                className="nav-link-sm"
                 onClick={handleDrawerToggle}
               >
                 {link.label}

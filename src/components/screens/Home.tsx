@@ -16,7 +16,7 @@ const Home = () => {
         flexDir="column"
         flex={1}
         w="100%"
-        zIndex={999}
+        zIndex={2}
         bgGradient={{
           base: "linear(80deg, marine.transparent.300, ocre.transparent.200)",
           md: "none",
