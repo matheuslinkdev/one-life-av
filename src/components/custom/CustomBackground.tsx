@@ -2,6 +2,8 @@
 import { Flex } from "@chakra-ui/react";
 import { CustomBgTypes } from "../../types/global-types";
 
+//Custom background for each screen section
+
 const CustomBackground = ({
   children,
   direction,

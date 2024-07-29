@@ -21,6 +21,7 @@ interface Props {
   href: string;
 }
 
+//links that are rendered in the navbar
 const navLinks: Props[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/" },
@@ -51,6 +52,7 @@ const Navbar = () => {
     >
       <Image src="/one-life-logo-white.png" height="60px" w="auto" />
 
+      {/* Link list to larger screens */}
       <Box display={{ base: "none", md: "flex" }}>
         {navLinks.map((link) => (
           <Link to={link.href} key={link.label} className="nav-link">
@@ -69,6 +71,7 @@ const Navbar = () => {
         _hover={{ bg: "transparent" }}
       />
 
+      {/* Menu for smaller screens */}
       <Drawer
         isOpen={isDrawerOpen}
         placement="top"
@@ -96,6 +99,7 @@ const Navbar = () => {
             gap={2}
             justifyContent="center"
           >
+            {/* Link list to smaller screens */}
             {navLinks.map((link) => (
               <Link
                 to={link.href}

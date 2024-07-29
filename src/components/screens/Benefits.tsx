@@ -15,7 +15,7 @@ const Benefits = () => {
       {benefitsArray.map((benefit) => {
         return (
           <Flex
-          key={benefit.title}
+            key={benefit.title}
             flexDir="column"
             justifyContent="center"
             p={4}

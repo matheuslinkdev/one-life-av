@@ -10,7 +10,7 @@ const CommunityPage = () => {
         colorTwo="violet.200"
         colorThree="marine.100"
       >
-        <Community/>
+        <Community />
       </CustomBackground>
     </>
   );
